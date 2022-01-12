@@ -53,3 +53,36 @@ created_at과 같이 _at이 붙은 것은 보통 시점에 대한 기록이며, 
 사용하지 않을 것이다.  
 
 ![image](https://user-images.githubusercontent.com/77952321/149087309-d5f0c8b2-d5c6-4463-aa80-ec5bbf6727c3.png)  
+
+
+
+date_trunc	weekly_active_users
+2014-04-28 00:00:00	701  
+2014-05-05 00:00:00	1054  
+2014-05-12 00:00:00	1094  
+2014-05-19 00:00:00	1147  
+2014-05-26 00:00:00	1113  
+2014-06-02 00:00:00	1173  
+2014-06-09 00:00:00	1219  
+2014-06-16 00:00:00	1262  
+2014-06-23 00:00:00	1249  
+2014-06-30 00:00:00	1271  
+2014-07-07 00:00:00	1355  
+2014-07-14 00:00:00	1345  
+2014-07-21 00:00:00	1363  
+2014-07-28 00:00:00	1442  
+2014-08-04 00:00:00	1266  
+2014-08-11 00:00:00	1215  
+2014-08-18 00:00:00	1203  
+2014-08-25 00:00:00	1194  
+
+```sql
+SELECT DATE_TRUNC('week', e.occurred_at),
+       COUNT(DISTINCT e.user_id) AS weekly_active_users
+  FROM tutorial.yammer_events e
+ WHERE e.event_type = 'engagement'
+   AND e.event_name = 'login'
+ GROUP BY 1
+ ORDER BY 1
+ 
+ ```
