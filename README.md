@@ -1,2 +1,2 @@
 # SQL
-SQL을 이용한 분석 역량 키우기 📊
+Develop analysis capabilities using SQL 📊
