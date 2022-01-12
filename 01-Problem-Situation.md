@@ -84,5 +84,4 @@ SELECT DATE_TRUNC('week', e.occurred_at),
    AND e.event_name = 'login'
  GROUP BY 1
  ORDER BY 1
- 
  ```
