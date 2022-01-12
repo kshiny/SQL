@@ -5,7 +5,6 @@ Develop analysis capabilities using SQL 📊
 - 유저 인게이지먼트 하락 원인 분석
 - 검색 기능 분석
 - A/B 테스트 결과 검증
-
 <br></br>
 프로젝트는 아래의 5단계로 진행된다.
 1. 준비 : 사전에 주어지는 자료를 스스로 학습
