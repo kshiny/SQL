@@ -56,7 +56,7 @@ created_at과 같이 _at이 붙은 것은 보통 시점에 대한 기록이며, 
 
 
 
-date_trunc	weekly_active_users
+date_trunc	weekly_active_users  
 2014-04-28 00:00:00	701  
 2014-05-05 00:00:00	1054  
 2014-05-12 00:00:00	1094  
