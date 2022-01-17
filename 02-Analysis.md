@@ -1,1 +1,16 @@
+## [Investigating a Drop in User Engagement: Answers](https://mode.com/sql-tutorial/a-drop-in-user-engagement-answers/)
 
+### 체계적인 분석을 위하여
+* 특정 현상의 원인이 이런 것들이 있을 수 있다고 가정
+* 가정한 원인들 중 어떤 것부터 파악해야 하는지 계획
+
+### 가설 세우기
+* Holiday : 업무용 툴이기 때문에, 주말에는 engagement 하락 예상
+* Broken feature : 기능이 고장나서, 사람들이 사용하지 못할 경우 engagement 하락 예상 (예시 : 회원 가입 기능, 인증 기능 오류로 인한 새로운 유저 유입이 없을 때)
+  * 기기 유형 별 engagement가 어떻게 되는지 확인하면 좋을 것으로 예상   
+* Broken tracking code : 유저들이 사용하는 기능 상에는 문제가 없는데, 로그 수집하는 과정에서 문제가 있을 경우 engagement 하락 예상
+* Traffic anomalies from bots : bot에 의해 발생하던 활동들이 제품이나 환경의 변경으로 인해 잘 이루어지지 않을 경우 engagement 하락 예상
+* Traffic shutdown to your site : 외부에서 우리 사이트로 제대로 유입되지 않은 상황일 경우 engagement 하락 예상 (예시 : 검색 서비스가 우리 서비스를 노출하지 않게 된 경우)
+* Marketing event : 커다란 마케팅 이벤트를 했을 경우에, 마케팅 이벤트가 engagement를 급격하게 상승시키고 난 후 일정 시간이 지난 뒤에 사람들이 빠르게 빠지는 현상이 일어나는 것으로 추측
+* Bad date : 실제 사용 유저들과 사내 유저(테스트 유저)와 분리해놓지 않았다면, 전체적인 engagement도 하락되는 현상
+* Search crawler changes : 검색 엔진이 우리 서비스를 검색 키워드 몇 위에 순위를 매겨주느냐에 따라 트래픽에 영향을 줄 수 있음
