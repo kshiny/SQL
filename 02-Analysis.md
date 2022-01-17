@@ -32,6 +32,8 @@
 
 ![image](https://user-images.githubusercontent.com/77952321/149719346-8ff05917-801d-4daf-8f30-8c7541d8b905.png)
 
+![image](https://user-images.githubusercontent.com/77952321/149720186-04a8d95e-e3e9-454c-85e8-5466701108f4.png)
+
 Q. 신규 가입자가 줄어들어서, WAU(Weekly Active User)에 영향을 미쳤나?  
 A. 2014년 8월 4일 주차에, 직전 주 대비 신규 가입자, 신규 활성 유저 각각 14.71%, 19.23% 감소  
 A. 이후 신규 가입자, 신규 활성 유저 수 모두 이전 수준 회복 & 소폭 증가
