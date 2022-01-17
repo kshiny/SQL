@@ -45,3 +45,9 @@ A. 이후 신규 가입자, 신규 활성 유저 수 모두 이전 수준 회복
 
 ![image](https://user-images.githubusercontent.com/77952321/149730538-e6f74f64-ad62-4a3d-a807-8cefc1bb8d12.png)
 ![image](https://user-images.githubusercontent.com/77952321/149730812-363ce9d7-84b7-4f9d-95bc-f5668f8dcb07.png)
+
+#### Q. WAU를 유저 코호트 별로 분해해보면, 어떤 시기에 가입한 유저들이 문제인지 알 수 있지 않을까?
+A. 가입으로부터 시간이 지날수록 Active User가 감소하는 것은 Retention 차트의 전형적인 패턴  
+A. 그러나 10+ weeks 유저들 WAU가 2014년 8월 4일 주차에 차트상 예외적으로 급감하는 모습을 보이기 때문에 WAU에 영향을 미친다고 볼 수 있음  
+<br></br>
+마케팅 트래픽이나 검색 엔진에서 랭킹을 내리는 것, 신규 유저들이 영향을 받을만한 것들 말고 가입한지 10주가 지난 유저들에게서 engagement가 발생하는 것 같다는 결론을 내렸다.
